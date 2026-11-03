@@ -14,6 +14,18 @@ sudo apt install redis-server -y
 
 ####
 ```bash
+sudo systemctl enable redis-server
+```
+---
+
+####
+```bash
+
+```
+---
+
+####
+```bash
 
 ```
 ---
