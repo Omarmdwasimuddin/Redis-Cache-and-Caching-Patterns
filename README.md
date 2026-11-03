@@ -20,6 +20,36 @@ sudo systemctl enable redis-server
 
 ####
 ```bash
+sudo systemctl start redis-server
+```
+---
+
+####
+```bash
+sudo systemctl status redis-server
+```
+---
+
+####
+```bash
+
+```
+---
+
+####
+```bash
+
+```
+---
+
+####
+```bash
+
+```
+---
+
+####
+```bash
 
 ```
 ---
