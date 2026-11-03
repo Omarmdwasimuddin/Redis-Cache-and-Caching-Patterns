@@ -43,6 +43,15 @@ redis-cli ping
 ```bash
 npx create-nx-workspace@latest wasutech-cache
 ```
+```bash
+cd wasutech-cache
+```
+---
+
+####
+```bash
+npm i @nx/nest
+```
 ---
 
 ####
