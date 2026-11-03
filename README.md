@@ -41,7 +41,7 @@ redis-cli ping
 
 ####
 ```bash
-
+npx create-nx-workspace@latest wasutech-cache
 ```
 ---
 
