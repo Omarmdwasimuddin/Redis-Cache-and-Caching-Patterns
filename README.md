@@ -28,11 +28,14 @@ sudo systemctl start redis-server
 ```bash
 sudo systemctl status redis-server
 ```
+```bash
+Ctrl+c
+```
 ---
 
 ####
 ```bash
-
+redis-cli ping
 ```
 ---
 
