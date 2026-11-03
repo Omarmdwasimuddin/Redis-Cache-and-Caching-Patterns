@@ -69,9 +69,25 @@ code .
 ```
 ---
 
-####
+#### `product-service/src/app/fake-db.ts`
 ```bash
-
+export const products = [
+    {
+        id: 1101,
+        name: 'Macbook Pro',
+        price: 25000,
+    },
+    {
+        id: 1102,
+        name: 'iPhone 17',
+        price: 17000,
+    },
+    {
+        id: 1103,
+        name: 'iPad Pro',
+        price: 20000,
+    }
+]
 ```
 ---
 
