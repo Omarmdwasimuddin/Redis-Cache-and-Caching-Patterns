@@ -56,13 +56,13 @@ npm i @nx/nest
 
 ####
 ```bash
-
+npx nx g @nx/nest:app product-service
 ```
 ---
 
 ####
 ```bash
-
+npm i redis @nestjs/cache-manager cache-manager cache-manager-redis-store
 ```
 ---
 
