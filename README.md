@@ -91,7 +91,7 @@ export const products = [
 ```
 ---
 
-####
+#### `product-service/src/app/app.module.ts`
 ```bash
 
 ```
