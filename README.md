@@ -8,6 +8,12 @@ wsl -d Ubuntu
 
 ####
 ```bash
+sudo apt install redis-server -y
+```
+---
+
+####
+```bash
 
 ```
 ---
