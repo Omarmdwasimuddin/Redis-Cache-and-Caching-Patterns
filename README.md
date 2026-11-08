@@ -70,7 +70,7 @@ code .
 ---
 
 #### `product-service/src/app/fake-db.ts`
-```bash
+```ts
 export const products = [
     {
         id: 1101,
@@ -92,7 +92,7 @@ export const products = [
 ---
 
 #### `product-service/src/app/app.module.ts`
-```bash
+```ts
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -181,13 +181,13 @@ export class AppService {
 ---
 
 ####
-```bash
+```ts
 
 ```
 ---
 
 ####
-```bash
+```ts
 
 ```
 ---
