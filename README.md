@@ -223,6 +223,6 @@ http://localhost:3000/api/products/1101
 Ctrl+Shift+r
 ```
 ---
-
+> login/signup kore then test korte hobe
 <img width="1550" height="488" alt="image" src="https://github.com/user-attachments/assets/a51842b4-3da0-47d6-95db-3d9a0d47fecb" />
 
