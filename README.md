@@ -219,6 +219,10 @@ http://localhost:3000/api/products/1101
 #### Extention theke Thunder Client install koro
 <img width="1344" height="463" alt="image" src="https://github.com/user-attachments/assets/25815641-8b47-4c7a-9827-cd671b4e9a78" />
 
+```bash
+Ctrl+Shift+r
+```
 ---
 
-####
+<img width="1550" height="488" alt="image" src="https://github.com/user-attachments/assets/a51842b4-3da0-47d6-95db-3d9a0d47fecb" />
+
