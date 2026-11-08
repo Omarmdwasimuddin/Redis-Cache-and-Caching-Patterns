@@ -1,45 +1,30 @@
 ## Redis Caching in NestJS Microservices with Nx (Cache-Aside & Write-Through Patterns)
 
-####
+#### Setup Redis Server on WSL Ubuntu
 ```bash
 wsl -d Ubuntu
 ```
----
-
-####
 ```bash
 sudo apt install redis-server -y
 ```
----
-
-####
 ```bash
 sudo systemctl enable redis-server
 ```
----
-
-####
 ```bash
 sudo systemctl start redis-server
 ```
----
-
-####
 ```bash
 sudo systemctl status redis-server
 ```
 ```bash
 Ctrl+c
 ```
----
-
-####
 ```bash
 redis-cli ping
 ```
 ---
 
-####
+#### Create Nx Workspace
 ```bash
 npx create-nx-workspace@latest wasutech-cache
 ```
@@ -48,19 +33,19 @@ cd wasutech-cache
 ```
 ---
 
-####
+#### Install NestJS Plugin
 ```bash
 npm i @nx/nest
 ```
 ---
 
-####
+#### Generate Product Service
 ```bash
 npx nx g @nx/nest:app product-service
 ```
 ---
 
-####
+#### Install Redis Cache Dependencies
 ```bash
 npm i redis @nestjs/cache-manager cache-manager cache-manager-redis-store
 ```
