@@ -215,3 +215,10 @@ http://localhost:3000/api/products/1101
 <img width="583" height="199" alt="image" src="https://github.com/user-attachments/assets/d998268b-24e8-4c8c-b43b-7c0a9250c138" />
 
 ---
+
+#### Extention theke Thunder Client install koro
+<img width="1344" height="463" alt="image" src="https://github.com/user-attachments/assets/25815641-8b47-4c7a-9827-cd671b4e9a78" />
+
+---
+
+####
