@@ -123,7 +123,7 @@ export class AppModule {}
 ---
 
 #### `product-service/src/app/app.service.ts`
-```bash
+```ts
 import { Injectable, Inject } from '@nestjs/common';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import type { Cache } from 'cache-manager';
