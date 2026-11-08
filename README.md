@@ -122,9 +122,61 @@ export class AppModule {}
 ```
 ---
 
-####
+#### `product-service/src/app/app.service.ts`
 ```bash
+import { Injectable, Inject } from '@nestjs/common';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import type { Cache } from 'cache-manager';
+import { products } from './fake-db';
 
+@Injectable()
+export class AppService {
+  constructor(
+    @Inject(CACHE_MANAGER) private readonly cacheManager: Cache,
+  ) {}
+
+  async getProducts(id: number) {
+    const cacheKey = `product:${id}`;
+    const cachedProduct = await this.cacheManager.get(cacheKey);
+
+    if (cachedProduct) {
+      console.log('Cache Hit')
+      return cachedProduct;
+    }
+    console.log('Cache Miss')
+
+    const product = products.find((p) => p.id === id);
+    await this.cacheManager.set(
+      cacheKey,
+      product,
+    );
+    return product;
+  }
+
+  async updateProduct(
+    id: number,
+    price: number,
+  ) {
+    const product = products.find((p) => p.id === id)
+    if(!product) {
+      return {
+        message: 'Product not found!',
+      }
+    }
+    product.price = price;
+    await this.cacheManager.set(
+      `product:${id}`,
+      product,
+    );
+    console.log('Cache Updated')
+      return {
+        message: 'Product update successfully!',
+        product
+      }
+    
+  }
+
+}
 ```
 ---
 
