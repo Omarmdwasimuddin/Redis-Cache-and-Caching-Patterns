@@ -205,8 +205,13 @@ export class AppController {
 ```
 ---
 
-####
-```ts
-
+#### run koro
+```bash
+npx nx serve product-service
 ```
+```bash
+http://localhost:3000/api/products/1101
+```
+<img width="583" height="199" alt="image" src="https://github.com/user-attachments/assets/d998268b-24e8-4c8c-b43b-7c0a9250c138" />
+
 ---
