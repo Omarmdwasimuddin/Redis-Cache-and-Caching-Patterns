@@ -190,7 +190,7 @@ export class AppController {
 ```
 ---
 
-#### run koro
+#### Test Cache Hit & Cache Miss
 ```bash
 npx nx serve product-service
 ```
